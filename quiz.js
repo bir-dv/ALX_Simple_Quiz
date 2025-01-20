@@ -18,10 +18,10 @@ const userAnswer = selectedOption.value;
 const feedbackElement = document.getElementById("feedback");
 
 if (userAnswer === correctAnswer){
-    feedbackElement.textContent = "correct! well done.";
+    feedbackElement.textContent = "Correct! Well done.";
     feedbackElement.style.color = "green";
 } else {
-    feedbackElement.textContent = "That's incorrect. Try again";
+    feedbackElement.textContent = "That's incorrect. Try again!";
     feedbackElement.style.color = "red";
 }
 
