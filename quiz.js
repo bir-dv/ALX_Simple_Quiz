@@ -14,8 +14,10 @@ if (!selectedOption) {
 const userAnswer = selectedOption.value;
 
 //compare the user selected answer
+
 const feedbackElement = document.getElementById("feedback");
-if(userAnswer === correctAnswer){
+
+if (userAnswer === correctAnswer){
     feedbackElement.textContent = "correct! well done.";
     feedbackElement.style.color = "green";
 } else {
